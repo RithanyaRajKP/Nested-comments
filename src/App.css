@@ -1,38 +1,51 @@
-.App {
-  text-align: center;
+
+.container {
+  max-width: 53rem;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100vh;
+  top: 6rem;
+  position: relative;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+input{
+  padding: 1rem !important;
+  width: 27rem;
+  margin-right: 5px;
+  border: solid 3px #00a4ff;
+  outline: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.buttonAdd{
+  padding: 1rem !important;
+  background-color: #00a4ff;
   color: white;
+  border: solid 2px #00a4ff;
+
 }
 
-.App-link {
-  color: #61dafb;
+.comment{
+  padding-top: 3rem;
 }
+.padding{
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 17px;
+  padding-right: 17px;
+  margin-right: 12px;
+}
+.btn-delete{
+  background-color: white;
+  border: solid 2px red;
+  color :red;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.btn-reply{
+  background-color: white;
+  border: solid 2px #00a4ff;
+  color: #00a4ff;
+}
+.replyClass{
+  border: solid 3px #40545e4d;
+  max-width: 20rem;
 }
